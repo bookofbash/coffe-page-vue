@@ -66,7 +66,7 @@ export default {
     height: 400px;
 }
 .img-container img {
-     border-radius: 100% 100% 0;
+    border-radius: 100% 100% 0;
     width: 400px;
     height: 400px;
 }

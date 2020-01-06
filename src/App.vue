@@ -5,6 +5,9 @@
     <Welcome />
     <Details />
     <WelcomeTwo/>
+    <Deals/>
+    <WelcomeThree />
+    <Banner />
   </div>
 </template>
 
@@ -13,6 +16,9 @@ import Header from './components/Header.vue'
 import Welcome from './components/Welcome.vue'
 import WelcomeTwo from './components/WelcomeTwo.vue'
 import Details from './components/Details.vue'
+import Deals from './components/Deals.vue'
+import WelcomeThree from './components/WelcomeThree.vue'
+import Banner from './components/Banner.vue'
 
 export default {
   name: 'app',
@@ -20,7 +26,10 @@ export default {
     Header,
     Welcome,
     Details,
-    WelcomeTwo
+    WelcomeTwo,
+    Deals,
+    WelcomeThree,
+    Banner
   }
 }
 </script>
@@ -42,3 +51,4 @@ export default {
 }
 
 </style>
+//TODO: Make mobile-responsive
