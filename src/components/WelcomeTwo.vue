@@ -25,7 +25,7 @@ export default {
 .container{
     display: grid;
     grid-template-columns: 50% auto;
-    margin: 80px 100px;
+    margin: 80px 100px 40px 100px;
 }
 .right div{
     display: flex;

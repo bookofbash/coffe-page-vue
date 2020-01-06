@@ -27,8 +27,11 @@ export default {
 </script>
 
 <style scoped>
+.container{
+    margin-top: 140px;
+}
 .title{
-    font-size: 36px;
+    font-size: 40px;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-weight: 900;
     margin-bottom: 10px;
@@ -38,7 +41,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 .banner-image img {

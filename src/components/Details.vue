@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <div class="grid-item"  tabindex="1">
+      <div class="grid-item"  tabindex="1" v-focus >
           <div class="heading-icon"> <span
           ><font-awesome-icon class="icon" icon="leaf" size="2x" :style="{ color: '#000000' }"
         /></span>
@@ -8,7 +8,7 @@
         
           <div class="content">Quality Coffee Cultivated by Good</div>
       </div>
-      <div class="grid-item" tabindex="2">
+      <div class="grid-item" tabindex="2" >
           <div class="heading-icon"><span
           ><font-awesome-icon class="icon" icon="coffee" size="2x" :style="{ color: '#000000' }"
         /></span>
@@ -40,6 +40,15 @@ library.add(faLeaf);
 library.add(faTree);
 library.add(faSeedling);
 export default {
+
+directives: {
+  focus: {
+    // directive definition
+    inserted: function (el) {
+      el.focus()
+    }
+  }
+}
 
 }
 </script>
@@ -73,7 +82,7 @@ export default {
     padding-bottom: 40px !important;
 }
 .grid-item:focus .heading-icon{
-        background-color:goldenrod;
+    background-color:rgb(255, 190, 50);
     border-radius :0 50px 0 0;
     padding-top: 40px !important;
     margin-left: 20px;

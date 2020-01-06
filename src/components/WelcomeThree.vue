@@ -9,7 +9,7 @@
           </div>
       </div>
      <div class="img-container">
-          <img src="@/assets/coffee-bean-sprout.jpg" />
+          <img src="@/assets/coffee-hands.jpg" />
       </div>
   </div>
 </template>
@@ -24,7 +24,8 @@ export default {
 .container{
     display: grid;
     grid-template-columns: 50% auto;
-    margin: 80px 100px;
+    margin: 80px 100px; 
+    padding-top:40px;
 }
 .left div{
     display: flex;

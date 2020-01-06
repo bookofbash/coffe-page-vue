@@ -43,11 +43,13 @@ export default {
 
 <style scoped>
 .container{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: #fffded;
+
 }
 .header{
-    margin: 200px 300px 100px 300px;
-    
+    margin: 80px 300px 100px 300px;
+    padding-top: 160px;
 }
 .subtitle{
     font-size: 36px;
