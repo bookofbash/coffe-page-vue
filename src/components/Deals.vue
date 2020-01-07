@@ -7,7 +7,7 @@
       </div>
       <div class="products">
           <div class="product">
-            <div class="product-image platinum"></div>
+            <div class="product-image platinum"><img src="@/assets/pouch-gold.png"></div>
             <div class="product-type">PLATINUM</div>
             <div class="product-name">Platinum Coffee Blend</div>
                       <div class="action-button">
@@ -15,7 +15,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image classic"></div>
+            <div class="product-image classic"><img src="@/assets/pouch-black.png"></div>
             <div class="product-type">CLASSIC</div>
             <div class="product-name">Classic Coffee Blend</div>
                       <div class="action-button">
@@ -23,7 +23,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image general"></div>
+            <div class="product-image general"><img src="@/assets/pouch-silver.png"></div>
             <div class="product-type">GENERAL</div>
             <div class="product-name"> General Coffee Blend</div>
                       <div class="action-button">
@@ -64,13 +64,17 @@ export default {
     margin-top: 20px;
 }
 .product-image{
-    width: 120px;
+    width: 200px;
     height: 200px;
-    background-color: black;
     justify-content: center;
     align-items: center;
     margin: auto;
     margin-bottom: 30px;
+}
+.product-image img {
+    width:200px;
+height: inherit;
+background: transparent;
 }
 .product-type{
     font-size: 12px;

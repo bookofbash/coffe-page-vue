@@ -46,8 +46,8 @@ export default {
 }
 .banner-image img {
     display: flex;
-    height: 180px;
-    width: 180px;
+    height: 192px;
+    width: 192px;
     flex-basis: auto;
     flex-grow: auto;
     margin-bottom: 0;

@@ -81,6 +81,10 @@ directives: {
     font-weight: 900;
     padding-bottom: 40px !important;
 }
+.grid-item:focus{
+      outline: none;
+
+}
 .grid-item:focus .heading-icon{
     background-color:rgb(255, 190, 50);
     border-radius :0 50px 0 0;

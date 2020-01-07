@@ -8,6 +8,7 @@
     <Deals/>
     <WelcomeThree />
     <Banner />
+    <Contact />
   </div>
 </template>
 
@@ -19,6 +20,8 @@ import Details from './components/Details.vue'
 import Deals from './components/Deals.vue'
 import WelcomeThree from './components/WelcomeThree.vue'
 import Banner from './components/Banner.vue'
+import Contact from './components/Contact.vue'
+
 
 export default {
   name: 'app',
@@ -29,7 +32,8 @@ export default {
     WelcomeTwo,
     Deals,
     WelcomeThree,
-    Banner
+    Banner,
+    Contact
   }
 }
 </script>
@@ -43,11 +47,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 40px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .head-image {
   position: absolute; right: -0px; top: -60px;
   width: 100%;
   z-index: -4;
+}
+button:hover{
+  cursor:pointer;
 }
 
 </style>
