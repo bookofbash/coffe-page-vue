@@ -15,7 +15,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image classic"><img src="@/assets/static/images/pouch-black.png"></div>
+            <div class="product-image classic"><img src="@/static/images/pouch-black.png"></div>
             <div class="product-type">CLASSIC</div>
             <div class="product-name">Classic Coffee Blend</div>
                       <div class="action-button">
@@ -40,7 +40,7 @@ export default {
       data() {
         return {
             images: {
-                pouchGoldImage: require('../assets/static/images/pouch-gold.png')
+                pouchGoldImage: require('../static/images/pouch-gold.png')
                 
             }
         }
