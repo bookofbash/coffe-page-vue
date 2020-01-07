@@ -3,7 +3,7 @@
       <div class="title">#COFFEE</div>
       <div class="subtitle">Coffee perfection since 1927.</div>
       <div class="banner-grid">
-          <div class="banner"><img src="https://source.unsplash.com/200x140/?bali,bedroom"></div>
+          <div class="banner"><img src="@/assets/img/banner.png"></div>
 
           <!-- <div class="banner-image"><img src="@/assets/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/brigitte-tohm-lbdNTcejZQs-unsplash.jpg"></div>
@@ -37,25 +37,24 @@ export default {
     font-weight: 900;
     margin-bottom: 10px;
 }
-.banner-grid{
+/* .banner-grid{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
-}
+} */
 .banner-image img {
     display: flex;
-    height: 192px;
-    width: 192px;
-    flex-basis: auto;
-    flex-grow: auto;
-    margin-bottom: 0;
-    justify-content: center;
+    height: auto;
+    width:1100px;
+    
 }
 .banner {
-    width: 1152px;
+    display: flex;
+    justify-content: center;
+    width:865px;
     margin-bottom: 0px;
     background: black;
 }
