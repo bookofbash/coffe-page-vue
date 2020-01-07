@@ -23,7 +23,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image general"><img src="../../static/images/pouch-silver.png"></div>
+            <div class="product-image general"><img src="/docs/img/pouch-silver.png"></div>
             <div class="product-type">GENERAL</div>
             <div class="product-name"> General Coffee Blend</div>
                       <div class="action-button">
