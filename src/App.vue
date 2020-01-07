@@ -35,7 +35,15 @@ export default {
     WelcomeThree,
     Banner,
     Contact
-  }
+  },
+      data() {
+        return {
+            images: {
+                pouchGoldImage: require('./assets/static/images/pouch-gold.png')
+                
+            }
+        }
+    }
 }
 </script>
 
