@@ -22,6 +22,7 @@
 </template>
 
 <script>
+require('@/assets/img/banner.png')
 export default {
 
 }
