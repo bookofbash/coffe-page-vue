@@ -3,6 +3,7 @@
       <div class="title">Would you like to hear from us?</div>
       <div class="subtitle">Submit your email address to our newsletter</div>
       <div class="input"><input placeholder="yourname@email.com"></div>
+      <div class="footer">Designed by <a href="https://dribbble.com/shots/7096875/attachments/98895?mode=media">Zaini Achmad</a> Coded by <a href="https://bookofbash.github.io/home">Bashir Harrell</a></div>
   </div>
 </template>
 
@@ -36,5 +37,9 @@ export default {
     padding-bottom: 10px;
     background: #010101;
     color: white;
+}
+.footer{
+    padding-top: 80px;
+    font-size: 12px;
 }
 </style>
