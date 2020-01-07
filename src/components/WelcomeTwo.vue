@@ -1,8 +1,8 @@
 <template>
   <div class="container">
       <div class="img-container">
-          <img src="/src/static/coffee-bean-sprout.jpg" />
-          
+          <!-- <img src="/src/static/coffee-bean-sprout.jpg" /> -->
+          <img src="https://source.unsplash.com/aO_jMXTduUE">
       </div>
       <div class="right">
           <div class="heading">PREMIUM COFFEE</div>

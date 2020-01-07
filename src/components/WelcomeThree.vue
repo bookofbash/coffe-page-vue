@@ -9,7 +9,8 @@
           </div>
       </div>
      <div class="img-container">
-          <img src="/src/static/coffee-hands.jpg" />
+          <!-- <img src="/src/static/coffee-hands.jpg" /> -->
+          <img src="https://source.unsplash.com/1LaCrYx5J7I">
       </div>
   </div>
 </template>
