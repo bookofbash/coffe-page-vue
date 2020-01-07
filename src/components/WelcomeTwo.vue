@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <div class="img-container">
-          <img src="../../static/coffee-bean-sprout.jpg" />
+          <img src="/src/static/coffee-bean-sprout.jpg" />
           
       </div>
       <div class="right">

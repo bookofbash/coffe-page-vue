@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="head-image" src="../static/coffee_spill.jpg">
+    <img class="head-image" src="@/assets/static/coffee_spill.jpg">
     <Header />
     <Welcome />
     <Details />
