@@ -6,6 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
+import VueLazyload from 'vue-lazyload'
+
+Vue.use(VueLazyload)
 
 Vue.config.productionTip = false
 
