@@ -3,8 +3,9 @@
       <div class="title">#COFFEE</div>
       <div class="subtitle">Coffee perfection since 1927.</div>
       <div class="banner-grid">
+          <div class="banner"><img src="@/assets/banner-images/banner.png"></div>
 
-          <div class="banner-image"><img src="@/assets/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
+          <!-- <div class="banner-image"><img src="@/assets/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/brigitte-tohm-lbdNTcejZQs-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/janko-ferlic-specialdaddy-h9Iq22JJlGk-unsplash.jpg"></div>
@@ -15,7 +16,7 @@
           <div class="banner-image"><img src="@/assets/banner-images/nolan-issac-It0DCaCBr40-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/toa-heftiba-09SxeOdtlPE-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/toa-heftiba-BgtVT7bVVcc-unsplash.jpg"></div>
+          <div class="banner-image"><img src="@/assets/banner-images/toa-heftiba-BgtVT7bVVcc-unsplash.jpg"></div> -->
       </div>
   </div>
 </template>
@@ -52,5 +53,10 @@ export default {
     flex-grow: auto;
     margin-bottom: 0;
     justify-content: center;
+}
+.banner {
+    width: 1152px;
+    margin-bottom: 0px;
+    background: black;
 }
 </style>
