@@ -26,7 +26,7 @@ export default {
       data() {
         return {
             images: {
-                bannerImage: require('../static/banner.png')
+                bannerImage: require('../../static/banner.png')
                 
             }
         }
