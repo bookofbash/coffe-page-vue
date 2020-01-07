@@ -7,7 +7,7 @@
       </div>
       <div class="products">
           <div class="product">
-            <div class="product-image platinum"><img src="@/assets/img/pouch-gold.png"></div>
+            <div class="product-image platinum"><img src="../../static/pouch-gold.png"></div>
             <div class="product-type">PLATINUM</div>
             <div class="product-name">Platinum Coffee Blend</div>
                       <div class="action-button">
@@ -15,7 +15,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image classic"><img src="@/assets/img/pouch-black.png"></div>
+            <div class="product-image classic"><img src="../../static/pouch-black.png"></div>
             <div class="product-type">CLASSIC</div>
             <div class="product-name">Classic Coffee Blend</div>
                       <div class="action-button">
@@ -23,7 +23,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image general"><img src="@/assets/img/pouch-silver.png"></div>
+            <div class="product-image general"><img src="../../static/pouch-silver.png"></div>
             <div class="product-type">GENERAL</div>
             <div class="product-name"> General Coffee Blend</div>
                       <div class="action-button">

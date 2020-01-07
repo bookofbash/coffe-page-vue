@@ -9,7 +9,7 @@
           </div>
       </div>
      <div class="img-container">
-          <img src="@/assets/img/coffee-hands.jpg" />
+          <img src="../../static/coffee-hands.jpg" />
       </div>
   </div>
 </template>
