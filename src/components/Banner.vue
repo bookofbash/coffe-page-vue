@@ -3,7 +3,7 @@
       <div class="title">#COFFEE</div>
       <div class="subtitle">Coffee perfection since 1927.</div>
       <div class="banner-grid">
-          <div class="banner"><img src="@/assets/img/banner.png"></div>
+          <div class="banner"><img src="@/static/banner.png"></div>
 
           <!-- <div class="banner-image"><img src="@/assets/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
           <div class="banner-image"><img src="@/assets/banner-images/brigitte-tohm-lbdNTcejZQs-unsplash.jpg"></div>
@@ -22,7 +22,6 @@
 </template>
 
 <script>
-require('@/assets/img/banner.png')
 export default {
 
 }
