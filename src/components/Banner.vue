@@ -37,6 +37,9 @@ export default {
 <style scoped>
 .container{
     margin-top: 140px;
+    margin-left:0px;
+    margin-right:0px;
+    width: 100%;
 }
 .title{
     font-size: 40px;
@@ -55,13 +58,12 @@ export default {
 .banner-image img {
     display: flex;
     height: auto;
-    width:1100px;
     
 }
 .banner {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
-    width:865px;
     margin-bottom: 0px;
     background: black;
 }
