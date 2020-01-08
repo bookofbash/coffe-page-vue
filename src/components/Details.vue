@@ -55,9 +55,10 @@ directives: {
 
 <style scoped>
 .container{
-    margin: 400px 100px 0 100px;;
+    margin: 400px 100px 100px 100px;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding: 80px 0;
 }
 .container div{
     display: flex;
