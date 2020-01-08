@@ -58,7 +58,7 @@ directives: {
     margin: 400px 100px 100px 100px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 80px 0;
+    min-height: 400px;
 }
 .container div{
     display: flex;

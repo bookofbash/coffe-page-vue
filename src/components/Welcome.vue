@@ -21,6 +21,7 @@ export default {
     display: grid;
     grid-template-columns: auto auto;
     margin: 80px 100px;
+    padding-bottom: 200px;
 }
 .left div{
     display: flex;

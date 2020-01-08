@@ -55,6 +55,7 @@ export default {
   position: absolute; right: -0px; top: -60px;
   width: 100%;
   z-index: -4;
+  margin-bottom: 600px;
 }
 button:hover{
   cursor:pointer;
