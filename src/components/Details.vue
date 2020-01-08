@@ -78,7 +78,7 @@ directives: {
     background-color:white;
     margin-left: 20px;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 900;
     padding-bottom: 40px !important;
 }

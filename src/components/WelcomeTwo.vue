@@ -34,13 +34,14 @@ export default {
     display: flex;
     text-align: left;
     margin-top: 0px;
+    font-size: 1rem;
 }
 .right .heading {
-    font-size: 12px;
+    font-size: .75rem;
     margin-top: 80px;
 }
 .right .slogan {
-    font-size: 34px;
+    font-size: 2.15rem;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-weight: 900;
     max-width: 60%;
@@ -50,7 +51,7 @@ export default {
 }
 .right .action-button button{
     width: 180px;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 10px 10px;
     border-radius: 50px;
     border: none;

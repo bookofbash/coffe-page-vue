@@ -58,8 +58,11 @@ export default {
     margin: 80px 300px 100px 300px;
     padding-top: 160px;
 }
+.title{
+    font-size: 1rem;
+}
 .subtitle{
-    font-size: 36px;
+    font-size: 2.2rem;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-weight: 900;
 }
@@ -69,6 +72,7 @@ export default {
 }
 .details{
     margin-top: 20px;
+    font-size: 1rem;
 }
 .product-image{
     width: 200px;
@@ -85,13 +89,13 @@ background: transparent;
 }
 
 .product-type{
-    font-size: 12px;
+    font-size: .75rem;
     margin-bottom: 10px;
 }
 .product-name{
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .action-button button{
     margin-top: 10px;

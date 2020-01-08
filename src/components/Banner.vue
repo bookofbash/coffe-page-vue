@@ -42,10 +42,13 @@ export default {
     width: 100%;
 }
 .title{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-weight: 900;
     margin-bottom: 10px;
+}
+.subtitle{
+    font-size: 1rem;
 }
 /* .banner-grid{
     margin-top: 40px;
