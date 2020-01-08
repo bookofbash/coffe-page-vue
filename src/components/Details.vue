@@ -45,7 +45,9 @@ directives: {
   focus: {
     // directive definition
     inserted: function (el) {
+      let x = window.scrollX, y = window.scrollY;
       el.focus()
+      window.scrollTo(x, y);
     }
   }
 }
