@@ -2,7 +2,7 @@
   <div class="container">
       <div class="grid-item"  tabindex="1" v-focus >
           <div class="heading-icon"> <span
-          ><font-awesome-icon class="icon" icon="leaf" size="2x" :style="{ color: '#000000' }"
+          ><font-awesome-icon class="icon" icon="leaf" size="3x" :style="{ color: '#000000' }"
         /></span>
         </div>
         
@@ -10,7 +10,7 @@
       </div>
       <div class="grid-item" tabindex="2" >
           <div class="heading-icon"><span
-          ><font-awesome-icon class="icon" icon="coffee" size="2x" :style="{ color: '#000000' }"
+          ><font-awesome-icon class="icon" icon="coffee" size="3x" :style="{ color: '#000000' }"
         /></span>
         </div>
         
@@ -18,13 +18,13 @@
       </div>
       <div class="grid-item"  tabindex="3">
           <div class="heading-icon"><span
-          ><font-awesome-icon class="icon" icon="tree" size="2x" :style="{ color: '#000000' }"
+          ><font-awesome-icon class="icon" icon="tree" size="3x" :style="{ color: '#000000' }"
         /></span></div>
           <div class="content">Milk gounds single beans single origin</div>
       </div>
       <div class="grid-item"  tabindex="4">
           <div class="heading-icon"><span
-          ><font-awesome-icon class="icon" icon="seedling" size="2x" :style="{ color: '#000000' }"
+          ><font-awesome-icon class="icon" icon="seedling" size="3x" :style="{ color: '#000000' }"
         /></span></div>
           <div class="content">Coffee irish robust spoon robust</div>
       </div>
@@ -78,7 +78,7 @@ directives: {
     background-color:white;
     margin-left: 20px;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 900;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
