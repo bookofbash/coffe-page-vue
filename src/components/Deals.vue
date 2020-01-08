@@ -72,7 +72,8 @@ export default {
 }
 .details{
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .product-image{
     width: 200px;

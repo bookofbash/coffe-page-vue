@@ -34,7 +34,8 @@ export default {
     display: flex;
     text-align: left;
     margin-top: 0px;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .right .heading {
     font-size: .75rem;

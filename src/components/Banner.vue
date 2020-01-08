@@ -49,6 +49,7 @@ export default {
 }
 .subtitle{
     font-size: 1rem;
+    font-weight: 500;
 }
 /* .banner-grid{
     margin-top: 40px;
