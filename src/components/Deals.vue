@@ -15,7 +15,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image classic"><img src="../../static/pouch_black.png"></div>
+            <div class="product-image classic"><img src="./../../static/pouch_black.png"></div>
             <div class="product-type">CLASSIC</div>
             <div class="product-name">Classic Coffee Blend</div>
                       <div class="action-button">
@@ -23,7 +23,7 @@
           </div>
           </div>
            <div class="product">
-            <div class="product-image general"><img src="../../static/pouch_silver.png"></div>
+            <div class="product-image general"><img src="./../../static/pouch_silver.png"></div>
             <div class="product-type">GENERAL</div>
             <div class="product-name"> General Coffee Blend</div>
                       <div class="action-button">
@@ -40,7 +40,7 @@ export default {
       data() {
         return {
             images: {
-                pouchGoldImage: require('../../static/pouch_gold.png')
+                pouchGoldImage: require('./../../static/pouch_gold.png')
                 
             }
         }
@@ -83,6 +83,7 @@ export default {
 height: inherit;
 background: transparent;
 }
+
 .product-type{
     font-size: 12px;
     margin-bottom: 10px;
