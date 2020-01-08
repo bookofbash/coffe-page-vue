@@ -44,6 +44,9 @@ export default {
 }
 .logo{
   display: flex;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 .navigation{
   display: flex;
