@@ -1,13 +1,17 @@
 <template>
   <div class="header">
-    <div class="logo">Coffee Roasters</div>
-    <div class="navigation">
+    <transition name="fade" mode="out-in" appear>
+    <div class="logo animated fadeInRight delay-.25s">Coffee Roasters</div>
+    </transition>
+    <transition name="fade" mode="out-in" appear>
+    <div class="navigation animated fadeInRight delay-.25s">
       <div class="navigation-btn"><button>SHOP</button></div>
       <div class="navigation-btn"><button>WHOLESALE</button></div>
       <div class="navigation-btn"><button>LOCATIONS</button></div>
       <div class="navigation-btn last"><button>OUR STORY</button></div>
     </div>
-    <div class="icons">
+    </transition>
+    <div class="icons animated fadeInRight delay-.30s">
       <span class="icon-container"
         ><font-awesome-icon class="icon" icon="search" size="xs" :style="{ color: '#888888' }"
       /></span>
@@ -15,7 +19,6 @@
           ><font-awesome-icon class="icon" icon="user" size="xs" :style="{ color: '#888888' }"
         /></span>
     </div>
-
   </div>
 </template>
 
@@ -74,4 +77,17 @@ export default {
   margin-right: 10px;
   display: flex
 }
+  .fade-enter{
+      opacity: 0;
+  }
+  .fade-enter-active{
+      transition: opacity 1s;
+  }
+  .fade-leave{
+      /* opacity: 1; */
+  }
+  .fade-leave-active{
+      transition: opacity 1s;
+      opacity: 0;
+  }
 </style>

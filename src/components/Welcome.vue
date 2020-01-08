@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-      <div class="left">
-          <div class="heading">PREMIUM COFFEE</div>
-          <div class="slogan">A cup of coffee is one of the most important, simple pleasures in life.</div>
-          <div class="action-button">
+      <div class="left ">
+          <div class="heading animated fadeInUp delay-0.5s">PREMIUM COFFEE</div>
+          <div class="slogan animated fadeInUp delay-0.75s">A cup of coffee is one of the most important, simple pleasures in life.</div>
+          <div class="action-button animated fadeInUp delay-1s">
               <button><span>👉🏽</span>Shop Now</button>
           </div>
       </div>

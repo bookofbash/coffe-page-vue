@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-      <div class="img-container">
+      <div class="img-container animated fadeInRight">
           <!-- <img src="/src/static/coffee-bean-sprout.jpg" /> -->
           <img src="https://source.unsplash.com/aO_jMXTduUE">
       </div>
-      <div class="right">
+      <div class="right animated fadeInUp">
           <div class="heading">PREMIUM COFFEE</div>
           <div class="slogan">Quality Coffee Cultivated by Good</div>
           <p>Our love for specialty coffee is never-ending. With over 365 at origin working with the best growers on the planet, only the best beans make the grade.</p>

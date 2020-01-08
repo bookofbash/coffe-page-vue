@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-      <div class="header">
+      <div class="header animated fadeInUp fast">
           <div class="title">Buy Now</div>
           <div class="subtitle">Our Best Deal</div>
           <div class="details">Coffee company with straight-forward mission: to make an office and on-the-go type of coffee that we'd like to drink.</div>
       </div>
       <div class="products">
-          <div class="product">
+          <div class="product animated fadeInDown ">
             <div class="product-image platinum"><img :src="images.pouchGoldImage"></div>
             <div class="product-type">PLATINUM</div>
             <div class="product-name">Platinum Coffee Blend</div>
@@ -14,7 +14,7 @@
               <button><span>👉🏽</span>$30.00</button>
           </div>
           </div>
-           <div class="product">
+           <div class="product animated fadeInDown delay-1s">
             <div class="product-image classic"><img src="./../../static/pouch_black.png"></div>
             <div class="product-type">CLASSIC</div>
             <div class="product-name">Classic Coffee Blend</div>
@@ -22,7 +22,7 @@
               <button><span>👉🏽</span>$20.00</button>
           </div>
           </div>
-           <div class="product">
+           <div class="product animated fadeInDown delay-2s">
             <div class="product-image general"><img src="./../../static/pouch_silver.png"></div>
             <div class="product-type">GENERAL</div>
             <div class="product-name"> General Coffee Blend</div>

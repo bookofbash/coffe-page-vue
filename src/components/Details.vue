@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <div class="grid-item"  tabindex="1" v-focus >
+      <div class="grid-item animated fadeInRight delay-.30s"  tabindex="1" v-focus >
           <div class="heading-icon"> <span
           ><font-awesome-icon class="icon" icon="leaf" size="3x" :style="{ color: '#000000' }"
         /></span>
@@ -8,7 +8,7 @@
         
           <div class="content">Quality Coffee Cultivated by Good</div>
       </div>
-      <div class="grid-item" tabindex="2" >
+      <div class="grid-item animated fadeInRight delay-.30s" tabindex="2" >
           <div class="heading-icon"><span
           ><font-awesome-icon class="icon" icon="coffee" size="3x" :style="{ color: '#000000' }"
         /></span>
@@ -16,13 +16,13 @@
         
           <div class="content">Flavor single origin froth in spooned ice</div>
       </div>
-      <div class="grid-item"  tabindex="3">
+      <div class="grid-item animated fadeInRight delay-.30s"  tabindex="3">
           <div class="heading-icon"><span
           ><font-awesome-icon class="icon" icon="tree" size="3x" :style="{ color: '#000000' }"
         /></span></div>
           <div class="content">Milk gounds single beans single origin</div>
       </div>
-      <div class="grid-item"  tabindex="4">
+      <div class="grid-item animated fadeInRight delay-.30s"  tabindex="4">
           <div class="heading-icon"><span
           ><font-awesome-icon class="icon" icon="seedling" size="3x" :style="{ color: '#000000' }"
         /></span></div>
