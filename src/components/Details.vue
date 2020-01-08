@@ -64,7 +64,7 @@ directives: {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 20px;
+    padding: 15px;
 }
 .heading-icon {
     background-color:white;
@@ -78,8 +78,9 @@ directives: {
     background-color:white;
     margin-left: 20px;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 900;
+    padding-top: 40px !important;
     padding-bottom: 40px !important;
 }
 .grid-item:focus{
@@ -93,6 +94,9 @@ directives: {
     margin-left: 20px;
 }
 .grid-item:focus .content {background-color:lemonchiffon;
+}
+.grid-item{
+  min-height: 300px;
 }
 
 </style>
