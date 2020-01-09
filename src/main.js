@@ -8,6 +8,10 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 import VueLazyload from 'vue-lazyload'
 
+import WOW from "wow.js"
+new WOW().init();
+
+
 Vue.use(VueLazyload)
 Vue.use(Animate)
 
