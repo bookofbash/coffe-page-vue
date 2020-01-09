@@ -5,18 +5,18 @@
       <div class="banner-grid">
           <div class="banner"><img :src="images.bannerImage"></div>
 
-          <!-- <div class="banner-image"><img src="@/assets/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/brigitte-tohm-lbdNTcejZQs-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/janko-ferlic-specialdaddy-h9Iq22JJlGk-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/lex-sirikiat-1tEkissU8dY-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/nathan-dumlao-ikU3J1nr52w-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/nathan-dumlao-r-KfktlyBL0-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/nathan-dumlao-tA90pRfL2gM-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/nolan-issac-It0DCaCBr40-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/toa-heftiba-09SxeOdtlPE-unsplash.jpg"></div>
-          <div class="banner-image"><img src="@/assets/banner-images/toa-heftiba-BgtVT7bVVcc-unsplash.jpg"></div> -->
+          <!-- <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/alisha-hieb-4-Pj2x7J22M-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/brigitte-tohm-lbdNTcejZQs-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/janko-ferlic-specialdaddy-h9Iq22JJlGk-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/lex-sirikiat-1tEkissU8dY-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/nathan-dumlao-ikU3J1nr52w-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/nathan-dumlao-r-KfktlyBL0-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/nathan-dumlao-tA90pRfL2gM-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/nolan-issac-It0DCaCBr40-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/toa-heftiba-09SxeOdtlPE-unsplash.jpg"></div>
+          <div class="banner-image animated fadeInRight wow"><img src="./../../static/banner-images/toa-heftiba-BgtVT7bVVcc-unsplash.jpg"></div> -->
       </div>
   </div>
 </template>
@@ -61,7 +61,8 @@ export default {
 } */
 .banner-image img {
     display: flex;
-    height: auto;
+    height: 170px;
+    width: 170px
     
 }
 .banner {

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <div class="left">
+      <div class="left animated fadeInRight wow">
           <div class="heading">PREMIUM COFFEE</div>
           <div class="slogan">Quality Coffee Cultivated by Good</div>
           <p>Our love for specialty coffee is never-ending. With over 365 at origin working with the best growers on the planet, only the best beans make the grade.</p>
@@ -8,7 +8,7 @@
               <button><span>👉🏽</span>Shop Now</button>
           </div>
       </div>
-     <div class="img-container">
+     <div class="img-container animated fadeInLeft wow">
           <!-- <img src="/src/static/coffee-hands.jpg" /> -->
           <img src="https://source.unsplash.com/1LaCrYx5J7I">
       </div>
