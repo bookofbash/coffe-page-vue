@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img class="head-image" src="@/assets/static/coffee_spill.jpg"> -->
-    <img class="head-image" src="https://source.unsplash.com/6GDW9BVdmkw/1">
+    <img class="head-image animated fadeIn delay-1s" src="https://source.unsplash.com/6GDW9BVdmkw/1">
     <Header />
     <Welcome />
     <Details />
