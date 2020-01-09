@@ -36,8 +36,6 @@
 </template>
 
 <script>
-import WOW from "wow.js"
- new WOW().init();
 export default {
       data() {
         return {
